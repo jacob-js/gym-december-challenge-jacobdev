@@ -15,7 +15,7 @@ const CustomizedNavigation = () => {
             </div>
             <div className="flex absolute ml-40 -z-10 gap-14">
                 <div className="bg-yellow-gold w-[644px] h-[423px] flex justify-center items-center">
-                    <div class="bg-custom-nav h-[200px] w-[385px] flex bg-cover bg-no-repeat bg-center flex-grow-0">
+                    <div className="bg-custom-nav h-[200px] w-[385px] flex bg-cover bg-no-repeat bg-center flex-grow-0">
 						<div className='bg-yellow-gold w-1/10 mt-1/10'></div>
 						<div className='w-1/10'></div>
 						<div className='bg-yellow-gold w-1/10 mt-1/10'></div>
