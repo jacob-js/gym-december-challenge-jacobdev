@@ -4,7 +4,7 @@ import VerticalTab from '../../ui/VerticalTab'
 
 const CustomizedNavigation = () => {
   return (
-    <div className='max-w-362 mx-auto px-6 mt-12'>
+    <div className='max-w-362 mx-auto px-6 mt-12 relative'>
         <div className="mb-12">
             <div className="text-dark-blue font-bold tracking-small">Customized navigation</div>
             <Title text="Discover what TUM has to offer" />
