@@ -1,17 +1,19 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Roboto } from '@next/font/google'
+import Navbar from '../components/Navbar'
+import Home from '../components/Home';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>
         <title>Gym December Challenge | MERCI JACOB</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/app/logo.svg" />
       </Head>
-      <main>
+      <main className='font-roboto'>
+        <Navbar />
+        <Home />
       </main>
     </>
   )
