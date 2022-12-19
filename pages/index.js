@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Home from '../components/Home';
+import Footer from '../components/Footer';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <main className='font-roboto'>
         <Navbar />
         <Home />
+        <Footer />
       </main>
     </>
   )
