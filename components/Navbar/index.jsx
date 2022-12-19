@@ -14,7 +14,7 @@ const menuItems = [
 
 const Navbar = () => {
   return (
-    <div className='bg-dark-blue sticky top-0 left-0'>
+    <div className='bg-dark-blue sticky top-0 left-0 z-50'>
         <div className="max-w-362 m-auto flex px-6 items-center justify-between">
             <div className="flex gap-4">
                 <Image src="/app/grid-down.svg" alt='' width={33} height={33} />
